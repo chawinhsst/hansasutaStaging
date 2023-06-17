@@ -3,6 +3,7 @@ import {Link, useNavigate} from 'react-router-dom'
 import {FaQuestionCircle, FaTicketAlt} from 'react-icons/fa'
 import {useSelector, useDispatch} from 'react-redux'
 import { logout, reset } from "../features/auth/authSlice";
+import {useSelector, useDispatch} from 'react-redux'
 
 function Home(){
     const navigate = useNavigate()

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL='https://glacial-spire-07840.herokuapp.com/api/v1/auth/'
+const API_URL='https://hansasutabackend-791965a318b0.herokuapp.com/api/v1/auth/'
 
 //Register user
 const register = async (userData) => {
